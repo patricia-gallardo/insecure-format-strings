@@ -51,7 +51,7 @@ Vagrant.configure("2") do |config|
   #
    config.vm.provider "virtualbox" do |vb|
      # Display the VirtualBox GUI when booting the machine
-     vb.gui = true
+  #   vb.gui = true
   
      # Customize the amount of memory on the VM:
      vb.memory = "6144"
@@ -74,7 +74,6 @@ Vagrant.configure("2") do |config|
      apt-get install -y rsync
      apt-get install -y virtualbox-guest-dkms
      apt-get install -y virtualbox-guest-utils
-     apt-get install -y ubuntu-gnome-desktop
    SHELL
 end
 
@@ -98,9 +97,7 @@ end
 # curl https://raw.githubusercontent.com/patricia-gallardo/insecure-format-strings/master/Vagrantfile -O
 # vagrant up
 # vagrant ssh
-# sudo adduser <username>
-# vagrant halt
-# vagrant up
+# git clone https://github.com/patricia-gallardo/insecure-format-strings.git
 
 # CLEANUP
 # vagrant halt
