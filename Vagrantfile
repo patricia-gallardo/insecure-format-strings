@@ -95,7 +95,7 @@ end
 # mkdir -p vagrant/ubuntu-bionic
 # cd vagrant/ubuntu-bionic
 # vagrant init ubuntu/bionic64
-# curl https://raw.githubusercontent.com/patricia-gallardo/c_on_linux/master/desktop/Vagrantfile -O
+# curl https://raw.githubusercontent.com/patricia-gallardo/insecure-format-strings/master/Vagrantfile -O
 # vagrant up
 # vagrant ssh
 # sudo adduser <username>
